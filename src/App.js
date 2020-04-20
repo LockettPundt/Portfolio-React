@@ -2,11 +2,11 @@
 import React from 'react';
 import Content from './components/Content';
 import SideBar from './components/SideBar';
-import { AppBox } from './Style/StyledComponents';
+import AppBox from './Style/MainContainers';
 
 function App() {
   return (
-    <AppBox className="App">
+    <AppBox>
       <SideBar />
       <Content />
     </AppBox>
