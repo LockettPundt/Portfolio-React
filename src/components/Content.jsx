@@ -1,10 +1,16 @@
 import React from 'react';
-
+import { ContentBox, InnerContentBox } from '../Style/ContentContainers';
+import Greeting from './Greeting';
 
 const Content = () => (
-  <div>
-    this is the content box.
-  </div>
+  <ContentBox>
+    <InnerContentBox>
+      <Greeting />
+      <p>{'this is the content box'.repeat(700)}</p>
+
+    </InnerContentBox>
+
+  </ContentBox>
 );
 
 
