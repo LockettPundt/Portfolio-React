@@ -1,6 +1,8 @@
 html {
   color: rgb(38, 38, 39);
-  font-size: 16px;
+  font-size: 1.1vw;
+  /* font-size: 16px; */
+  /* font-size: calc(0.75em + 1vmin); */
   font-family: 'Lato', 'Helvetica Neue';
   height: 100%;
   margin: 0;
@@ -17,14 +19,15 @@ html {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Lato', 'Helvetica Neue', 'Roboto', 'Oxygen',
+  font-family: 'Lato', 'Helvetica Neue', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
-
+/* 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
