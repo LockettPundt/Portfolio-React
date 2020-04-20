@@ -1,5 +1,5 @@
 import React from 'react';
-import { NameBox, SideBarDiv, SocialIcons } from '../Style/StyledComponents';
+import { NameBox, SideBarDiv, SocialIcons } from '../Style/SideBarStyling';
 
 const SideBar = () => (
   <SideBarDiv>
@@ -9,7 +9,7 @@ const SideBar = () => (
         {' '}
         {'{'}
       </h1>
-      <h1>
+      <h1 className="indent">
         Developer
       </h1>
       <h1>
@@ -39,7 +39,7 @@ const SideBar = () => (
         <i className="fab fa-linkedin" />
       </a>
       <a
-        href="LOCKETT%20PUNDT%20IV%20Resume%202020.pdf"
+        href="../LOCKETT%20PUNDT%20IV%20Resume%202020.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >
