@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import Content from './components/Content';
 import SideBar from './components/SideBar';
