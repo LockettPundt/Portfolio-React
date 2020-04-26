@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const ContentBox = styled.div`
-  background-color: rgb(241, 236, 228);
+  background-color: var(--grey);
   width: 75%;
   height: auto;
   overflow-y: scroll;
@@ -11,6 +11,7 @@ export const ContentBox = styled.div`
     width: 100%;
     height: auto;
   }
+  
 `;
 
 export const InnerContentBox = styled.div`
@@ -18,6 +19,16 @@ export const InnerContentBox = styled.div`
   height: 100vh;
   margin: 0 auto 3rem auto;
   overflow: visible;
+  font-size: 1.3rem;
+  
+  @media screen and (max-width: 600px) {
+    font-size: 2rem;
+  }
+  
+  @media screen and (max-width: 400px) {
+    font-size: 2.3rem;
+  }
+  
 `;
 
 export const GreetingBox = styled.div`
@@ -27,24 +38,23 @@ export const GreetingBox = styled.div`
   margin: 31vh auto 40rem auto;
   
   @media screen and (max-width: 1780px) {
-    margin: 33vh auto 52vh auto;
-    
+    margin: 33vh auto 52vh auto; 
   }
+  
   @media screen and (max-width: 1450px) {
     margin: 36vh auto 52vh auto;
-    
   }
+  
   @media screen and (max-width: 1150px) {
     margin: 40vh auto 52vh auto;
   }
+  
   @media screen and (max-width: 800px) {
     margin: 43vh auto 50vh auto;
-    
   }
   
   @media screen and (max-width: 600px) {
-    margin: 50vh auto 50vh auto;
-    
+    margin: 50vh auto 50vh auto;  
   }
 
 `;
