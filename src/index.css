@@ -1,3 +1,13 @@
+:root {
+  --grey: rgb(241, 236, 228);
+  --green: rgb(125, 187, 145);
+  --black: rgb(38, 38, 39);
+  --hoverPink: #ffc89f;
+  --font: 'Lato';
+  --sectionMargin: 4rem auto;
+}
+
+
 html {
   color: rgb(38, 38, 39);
   font-size: 1.1vw;
@@ -31,3 +41,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 1.35vw;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  html {
+    font-size: 2vw;
+  }
+}
