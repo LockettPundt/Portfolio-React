@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const SideBarDiv = styled.div`
-  background-color: rgb(125, 187, 145);
+  background-color: var(--green);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,7 +25,7 @@ export const SideBarDiv = styled.div`
 export const NameBox = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: rgb(125, 187, 145);
+  background-color: var(green);
   width: auto;
   padding: 0rem 1.5rem;
 
@@ -43,7 +43,7 @@ export const SocialIcons = styled.div`
   a {
     font-family: 'Lato' , sans-serif;
     text-decoration: none;
-    color: rgb(38, 38, 39);
+    color: var(--black);
     margin-right: 0.5rem;
     
     @media screen and (max-width: 600px) {
@@ -53,7 +53,7 @@ export const SocialIcons = styled.div`
 }
 
   i:hover {
-  color: #ffc89f;
+  color: var(--hoverPink);
   transform: scale(1.3);
   transition: 0.3s ease-in-out;
   }
