@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const DownArrow = styled.i`
-  color: rgb(38, 38, 39);
+  color: var(--black);
   font-size: 3rem;
   
   &:hover {
-  color: #ffc89f;
+  color: var(--hoverPink);
   transform: scale(1.3);
   transition: 0.3s ease-in-out;
   }
