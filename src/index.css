@@ -10,8 +10,7 @@
 
 html {
   color: rgb(38, 38, 39);
-  font-size: 1.1vw;
-  /* font-size: 16px; */
+  font-size: 16px;
   /* font-size: calc(0.75em + 1vmin); */
   font-family: 'Lato', 'Helvetica Neue';
   height: 100%;
@@ -34,7 +33,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  scroll-behavior: smooth;
 }
 /* 
 code {
@@ -42,9 +40,9 @@ code {
     monospace;
 } */
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   html {
-    font-size: 1.35vw;
+    font-size: 1.1vw;
   }
 }
 
@@ -52,4 +50,4 @@ code {
   html {
     font-size: 2vw;
   }
-}
+} */
