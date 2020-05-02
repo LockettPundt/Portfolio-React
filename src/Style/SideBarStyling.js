@@ -29,7 +29,8 @@ export const SideBarDiv = styled.div`
       position: fixed;
       width: 100%;
       height: auto;
-      font-size: 1rem;
+      font-size: 0.8rem;
+      z-index: 2;
     }
 `;
 
@@ -41,6 +42,10 @@ export const NameBox = styled.div`
   padding: 0rem 1.5rem;
   .indent {
     padding-left: 2.8rem;
+    
+    @media screen and (max-width: 600px) {
+      padding-left: 1rem;
+    }
   }
   
   @media screen and (max-width: 600px) {
