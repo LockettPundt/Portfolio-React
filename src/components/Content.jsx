@@ -1,21 +1,30 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { ContentBox, InnerContentBox } from '../Style/ContentContainers';
 import Greeting from './Greeting';
 import Picture from './Picture';
 import AboutMe from './AboutMe';
+import Skills from './Skills';
+import Projects from './Projects';
+import Playlists from './PlayLists';
 
-const Content = () => (
-  <ContentBox>
-    <InnerContentBox>
-      <Greeting />
-      <Picture />
-      <AboutMe />
-      <p>{'this is the content box'.repeat(700)}</p>
+import StateContext from '../context';
 
-    </InnerContentBox>
+const Content = () => {
+  const [value, dispatch] = useContext(StateContext);
+  return (
+    <ContentBox darkMode={value.darkMode}>
+      <InnerContentBox>
+        <Greeting />
+        <Picture />
+        <AboutMe />
+        <Skills />
+        <Projects />
+        <Playlists />
+      </InnerContentBox>
 
-  </ContentBox>
-);
+    </ContentBox>
+  );
+};
 
 
 export default Content;
