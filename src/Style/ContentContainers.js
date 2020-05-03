@@ -23,6 +23,9 @@ export const InnerContentBox = styled.div`
   margin: 0 auto 3rem auto;
   overflow: visible;
   font-size: 1.6rem;
+  @media screen and (max-width: 1025px) {
+    font-size: 1.4rem;
+  }
   
   @media screen and (max-width: 400px) {
     font-size: 1.2rem;
