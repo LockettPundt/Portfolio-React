@@ -16,13 +16,14 @@ export const SideBarDiv = styled.div`
   
   
   
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 1025px) {
     font-size: 0.9rem;
     min-width: 260px;
   }
   
   @media screen and (max-width: 800px) {
-    min-width: 240px;
+    font-size: 0.7rem;
+    min-width: 200px;
   }
   
   @media screen and (max-width: 600px) {
@@ -48,6 +49,9 @@ export const NameBox = styled.div`
     }
   }
   
+  @media screen and (max-width: 800px) {
+    
+  }
   @media screen and (max-width: 600px) {
     padding: 0.5rem 1rem 0.1rem 1rem;
     line-height: 0.1rem;
@@ -65,8 +69,11 @@ export const SocialIcons = styled.div`
   }
   
   > i {
-    @media screen and (max-width: 975px) {
+    @media screen and (max-width: 1025px) {
       font-size: 1.6rem;
+    }
+    @media screen and (max-width: 800px) {
+      font-size: 1.4rem;
     }
     @media screen and (max-width: 600px) {
       font-size: 1.6rem;
@@ -79,16 +86,17 @@ export const SocialIcons = styled.div`
     color: ${(props) => (props.darkMode ? '#ffc89f' : 'rgb(38, 38, 39)')};
     margin-right: 0.8rem;
     
-    @media screen and (max-width: 975px) {
+    @media screen and (max-width: 1025px) {
       font-size: 1.6rem;
+    }
+    @media screen and (max-width: 800px) {
+      font-size: 1.4rem;
     }
     @media screen and (max-width: 600px) {
       margin-right: 1rem;
-      font-size: 1.6rem;
+      font-size: 1.4rem;
     }
   }
-
-}
 
   i:hover {
   color: var(--hoverPink);
