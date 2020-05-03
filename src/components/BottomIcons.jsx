@@ -13,7 +13,8 @@ const IconsBox = styled.section`
   
   font-size: 3.8rem;
   width: 90%;
-  margin:  9rem auto;
+  padding: 8rem 0;
+  margin:  2rem auto;
   justify-content: space-between;
   
   a {

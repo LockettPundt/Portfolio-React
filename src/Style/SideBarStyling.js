@@ -30,7 +30,7 @@ export const SideBarDiv = styled.div`
       position: fixed;
       width: 100%;
       height: auto;
-      font-size: 0.8rem;
+      font-size: 0.75rem;
       z-index: 2;
     }
 `;
@@ -53,7 +53,7 @@ export const NameBox = styled.div`
     
   }
   @media screen and (max-width: 600px) {
-    padding: 0.5rem 1rem 0.1rem 1rem;
+    padding: 0.33rem 1rem 0.1rem 1rem;
     line-height: 0.1rem;
   }
 
@@ -62,7 +62,7 @@ export const NameBox = styled.div`
 export const SocialIcons = styled.div`
   font-size: 2.6rem;
   padding-left: 1.7rem;
-  margin: 1rem 0;
+  margin: 0.7rem 0;
   
   @media screen and (max-width: 600px) {
     padding: 0rem 1rem;
@@ -76,7 +76,7 @@ export const SocialIcons = styled.div`
       font-size: 1.4rem;
     }
     @media screen and (max-width: 600px) {
-      font-size: 1.6rem;
+      font-size: 1.5rem;
     }
   }
 
@@ -94,7 +94,7 @@ export const SocialIcons = styled.div`
     }
     @media screen and (max-width: 600px) {
       margin-right: 1rem;
-      font-size: 1.4rem;
+      font-size: 1.5rem;
     }
   }
 

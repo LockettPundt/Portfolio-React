@@ -32,11 +32,3 @@ export const InnerContentBox = styled.div`
   }
 
 `;
-
-export const GreetingBox = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 35vh auto 40rem auto;
-
-`;
