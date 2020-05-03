@@ -6,7 +6,7 @@ import AboutMe from './AboutMe';
 import Skills from './Skills';
 import Projects from './Projects';
 import Playlists from './PlayLists';
-
+import BottomIcons from './BottomIcons';
 import StateContext from '../context';
 
 const Content = () => {
@@ -20,6 +20,7 @@ const Content = () => {
         <Skills />
         <Projects />
         <Playlists />
+        <BottomIcons />
       </InnerContentBox>
 
     </ContentBox>
