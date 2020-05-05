@@ -52,16 +52,15 @@ export const Welcome = styled.h1`
 
 const Greeting = () => {
   const [value, dispatch] = useContext(StateContext);
-  const scrollClick = (e) => {
+  const scrollClick = () => {
     const anchor = document.getElementById('anchor1');
-    e.preventDefault();
     anchor.scrollIntoView(true);
   };
 
   return (
     <GreetingBox>
       <em><Welcome>Hi there. Come on in.</Welcome></em>
-      <DownArrow className="far fa-arrow-alt-circle-down downArrow" darkMode={value.darkMode} onClick={(e) => scrollClick(e)} />
+      <DownArrow className="far fa-arrow-alt-circle-down downArrow" darkMode={value.darkMode} onClick={scrollClick} />
     </GreetingBox>
 
   );
