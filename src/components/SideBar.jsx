@@ -6,8 +6,7 @@ import { NameBox, SideBarDiv, SocialIcons } from '../Style/SideBarStyling';
 
 const SideBar = () => {
   const [value, dispatch] = useContext(StateContext);
-  const darkModeToggle = (e) => {
-    e.preventDefault();
+  const darkModeToggle = () => {
     dispatch({
       type: 'ACTION_DARKMODE_TOGGLE',
       darkMode: !value.darkMode,
@@ -60,9 +59,9 @@ const SideBar = () => {
         >
           <i className="far fa-file" />
         </a>
-        {value.darkMode ? (<i className="fas fa-sun" onClick={(e) => darkModeToggle(e)} />
+        {value.darkMode ? (<i className="fas fa-sun" onClick={darkModeToggle} />
 
-        ) : <i className="fas fa-moon" onClick={(e) => darkModeToggle(e)} />}
+        ) : <i className="fas fa-moon" onClick={darkModeToggle} />}
 
       </SocialIcons>
 
