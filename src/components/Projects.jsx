@@ -60,7 +60,7 @@ const Projects = () => (
       src={twentyFourgo}
       alt="24go landing page image"
       title="24GO"
-      url="http://ec2-3-134-99-23.us-east-2.compute.amazonaws.com"
+      url="24go.lpiv.co"
       github="https://github.com/LockettPundt/Group-Front-End-Project"
       text={(
         <>
