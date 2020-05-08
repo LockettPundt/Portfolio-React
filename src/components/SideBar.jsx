@@ -53,7 +53,7 @@ const SideBar = () => {
           <i className="fab fa-linkedin" />
         </a>
         <a
-          href="../LOCKETT%20PUNDT%20IV%20Resume%202020.pdf"
+          href="../LOCKETT%20PUNDT%20IV%202020%20RESUME.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
