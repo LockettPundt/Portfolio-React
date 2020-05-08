@@ -74,7 +74,7 @@ const SingleProject = ({
           <i className="fab fa-github" />
         </a>
       </div>
-      <p>{text}</p>
+      {text}
       <ProjectImageWrapper>
         <img src={src} alt={alt} />
       </ProjectImageWrapper>
