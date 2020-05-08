@@ -36,6 +36,27 @@ const Projects = () => (
       )}
     />
     <SingleProject
+      src="https://i.postimg.cc/QxWMTQrF/Screen-Shot-2020-05-03-at-2-30-55-PM.png"
+      alt="Landing page of the drinkcast App"
+      title="drinkcast"
+      url="https://drinkcast.live"
+      github="https://github.com/LockettPundt/drinkcast-client"
+      text={(
+        <>
+          <p>
+            Drinkcast is a web App that uses WebRTC to connect friends in virtual &quot;bars&quot; where they can
+            hang out over video chat and play games. Users can create their own bar, choosing the name of the bar or allowing
+            the random name generator to choose for them, and invite friends to join via the bar&apos;s name and password.
+          </p>
+          <p>
+            This project, created alonside 3 other talented developers, utilizes React, OpenTok React WebRTC, PostgreSQL, Node.js and
+            Express. Additional tools/modules used include Styled Components for stlying in React, React Select Menu and FortAwesome
+            for icons.
+          </p>
+        </>
+      )}
+    />
+    <SingleProject
       src={twentyFourgo}
       alt="24go landing page image"
       title="24GO"
@@ -44,8 +65,8 @@ const Projects = () => (
       text={(
         <>
           <p>
-            I'm a frequent traveller and sometimes you find yourself with an
-            unexpected night off in an unfamiliar city. Or perhaps you're at
+            I&apos;m a frequent traveller and sometimes you find yourself with an
+            unexpected night off in an unfamiliar city. Or perhaps you&apos;re at
             home bored and curious as to what may be happening in your own
             city tonight.
           </p>
@@ -54,8 +75,8 @@ const Projects = () => (
             provided by the user, and generate a list of local events as
             well as cultural sites in the given location. Using various
             APIs, the site would provide local weather, music, sports,
-            comedy and film events happening that day. Each event listed had
-            a link to their respective page and each culural site had a link
+            comedy and film events happening that day. Each event listed has
+            a link to their respective page and each culural site has a link
             to the wikipedia page.
           </p>
         </>
@@ -73,7 +94,7 @@ const Projects = () => (
             Based on the board game Pandemic, this was my first full stack group project created
             alonside 3 other developers. The premise for the game was to make a smaller and
             more localized version of the popular game using a database to record the game state
-            and populate the board. The game takes place over the course of 19 days and in that time
+            and inform the board. The game takes place over the course of 19 days and in that time
             you are travelling across the state in search of research. Winning is accomplished with a
             cooperative effort to uncover 4 research breakthroughs before the epidemic becomes untenable.
             Built using Node.js, Express, HTML, CSS, JS and PostgreSQL.
