@@ -89,17 +89,15 @@ const Projects = () => (
       url="https://pandemic-georgia.lpiv.co"
       github="https://github.com/LockettPundt/pandemic-georgia"
       text={(
-        <>
-          <p>
-            Based on the board game Pandemic, this was my first full stack group project created
-            alonside 3 other developers. The premise for the game was to make a smaller and
-            more localized version of the popular game using a database to record the game state
-            and inform the board. The game takes place over the course of 19 days and in that time
-            you are travelling across the state in search of research. Winning is accomplished with a
-            cooperative effort to uncover 4 research breakthroughs before the epidemic becomes untenable.
-            Built using Node.js, Express, HTML, CSS, JS and PostgreSQL.
-          </p>
-        </>
+        <p>
+          Based on the board game Pandemic, this was my first full stack group project created
+          alonside 3 other developers. The premise for the game was to make a smaller and
+          more localized version of the popular game using a database to record the game state
+          and inform the board. The game takes place over the course of 19 days and in that time
+          you are travelling across the state in search of research. Winning is accomplished with a
+          cooperative effort to uncover 4 research breakthroughs before the epidemic becomes untenable.
+          Built using Node.js, Express, HTML, CSS, JS and PostgreSQL.
+        </p>
       )}
     />
     <SingleProject
@@ -109,14 +107,12 @@ const Projects = () => (
       url="https://github.com/LockettPundt/Pygame-project"
       github="https://github.com/LockettPundt/Pygame-project"
       text={(
-        <>
-          <p>
-            Built in Python, my first project, Wizard In The Woods, is a top
-            down shooter game with a nod to 16-bit fantasy RPGs. It starts
-            simple enough with our hero finding himself in an unfortunate
-            situation, alone in the woods. The rest is up to you...
-          </p>
-        </>
+        <p>
+          Built in Python, my first project, Wizard In The Woods, is a top
+          down shooter game with a nod to 16-bit fantasy RPGs. It starts
+          simple enough with our hero finding himself in an unfortunate
+          situation, alone in the woods. The rest is up to you...
+        </p>
       )}
     />
   </SectionContainer>
