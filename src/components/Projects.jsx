@@ -76,7 +76,7 @@ const Projects = () => (
             well as cultural sites in the given location. Using various
             APIs, the site would provide local weather, music, sports,
             comedy and film events happening that day. Each event listed has
-            a link to their respective page and each culural site has a link
+            a link to their respective page and each cultural site has a link
             to the wikipedia page.
           </p>
         </>
