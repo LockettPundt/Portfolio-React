@@ -26,6 +26,9 @@ const DownArrow = styled.i`
   transform: scale(1.3);
   transition: 0.3s ease-in-out;
   }
+  @media screen and (max-width: 800px) {
+    font-size: 2rem;
+  }
   @media screen and (max-width: 600px) {
     font-size: 2.5rem;
   }

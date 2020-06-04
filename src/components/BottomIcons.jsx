@@ -11,7 +11,7 @@ import StateContext from '../context';
 const IconsBox = styled.section`
   display: flex;
   
-  font-size: 3.8rem;
+  font-size: 2.8rem;
   width: 90%;
   padding: 8rem 0;
   margin:  2rem auto;
@@ -31,7 +31,7 @@ const IconsBox = styled.section`
   }
   
   @media screen and (max-width: 800px) {
-    font-size: 2.7rem;
+    font-size: 2rem;
   }
   @media screen and (max-width: 600px) {
     font-size: 1.8rem;
@@ -72,7 +72,7 @@ const Bottomicons = () => {
         <i className="fab fa-linkedin" />
       </a>
       <a
-        href="../LOCKETT%20PUNDT%20IV%20Resume%202020.pdf"
+        href="../LOCKETT%20PUNDT%20IV%202020%20RESUME.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >
