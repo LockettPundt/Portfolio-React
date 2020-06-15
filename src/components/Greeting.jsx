@@ -54,7 +54,7 @@ export const Welcome = styled.h1`
 `;
 
 const Greeting = () => {
-  const [value, dispatch] = useContext(StateContext);
+  const [value] = useContext(StateContext);
   const scrollClick = () => {
     const anchor = document.getElementById('anchor1');
     anchor.scrollIntoView(true);

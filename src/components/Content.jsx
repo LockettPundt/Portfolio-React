@@ -10,7 +10,7 @@ import BottomIcons from './BottomIcons';
 import StateContext from '../context';
 
 const Content = () => {
-  const [value, dispatch] = useContext(StateContext);
+  const [value] = useContext(StateContext);
   return (
     <ContentBox darkMode={value.darkMode}>
       <InnerContentBox>
