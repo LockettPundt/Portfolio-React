@@ -36,6 +36,21 @@ const Projects = () => (
       )}
     />
     <SingleProject
+      src="https://i.postimg.cc/XYW2j3y9/Screen-Shot-2020-06-15-at-2-54-51-PM.png"
+      alt="WhasssApp room image"
+      title="WhasssApp"
+      url="https://github.com/LockettPundt/WhasssApp"
+      github="https://github.com/LockettPundt/WhasssApp"
+      text={(
+        <>
+        <p>Simple chat app built with React, Electron, Grommet and Socket.io. Users can 
+          create or join chat rooms. Once a room is created, the chat history is saved and users
+          can revisit the conversation at any time to pick up where they left off.
+        </p>
+        </>
+      )}
+    />
+    <SingleProject
       src="https://i.postimg.cc/QxWMTQrF/Screen-Shot-2020-05-03-at-2-30-55-PM.png"
       alt="Landing page of the drinkcast App"
       title="drinkcast"
