@@ -40,7 +40,7 @@ const IconsBox = styled.section`
 `;
 
 const Bottomicons = () => {
-  const [value, dispatch] = useContext(StateContext);
+  const [value] = useContext(StateContext);
   const scrollClick = (e) => {
     const anchor = document.getElementById('anchor1');
     e.preventDefault();

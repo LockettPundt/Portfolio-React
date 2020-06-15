@@ -21,7 +21,7 @@ const Links = styled.div`
 
 `;
 const Playlist = ({ children }) => {
-  const [value, dispatch] = useContext(StateContext);
+  const [value] = useContext(StateContext);
 
   return (
     <SectionContainer>

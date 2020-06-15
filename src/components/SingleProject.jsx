@@ -53,7 +53,7 @@ const ProjectImageWrapper = styled.div`
 const SingleProject = ({
   title, url, github, src, alt, text,
 }) => {
-  const [value, dispatch] = useContext(StateContext);
+  const [value] = useContext(StateContext);
 
   return (
     <Project darkMode={value.darkMode}>
