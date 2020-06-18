@@ -14,25 +14,13 @@ export const SideBarDiv = styled.div`
   overflow: hidden;
   transition: 0.4s ease-in-out;
   
-  
-  
-  /* @media screen and (max-width: 1024px) {
-    font-size: 0.9rem;
-    min-width: 260px;
-  } */
-  
-  /* @media screen and (max-width: 768px) {
-    font-size: 0.7rem;
-    min-width: 200px;
-  } */
-  
   @media screen and (max-width: 1050px) {
       position: fixed;
       flex-direction: row;
       justify-content: space-between;
       width: 100%;
       height: auto;
-      font-size: 0.75rem;
+      font-size: 0.55rem;
       z-index: 2;
       padding-right: 1.5rem;
     }
@@ -56,15 +44,12 @@ export const NameBox = styled.div`
     
     @media screen and (max-width: 1050px) {
       padding-left: 1rem;
+      line-height: 0rem;
     }
   }
   
-  
-  
-  @media screen and (max-width: 768px) {
-    flex-direction: column;
-    padding: 0.33rem 1rem 0.1rem 1rem;
-    line-height: 0.1rem;
+  @media screen and (max-width: 430px) {
+    padding: 0rem 1rem;
   }
 
 `;
@@ -85,18 +70,20 @@ export const SocialIcons = styled.div`
   }
   @media screen and (max-width: 430px) {
     align-self: flex-start;
+    margin: 0;
+    margin-bottom: 0.35rem;
   }
   
   
   > i {
     @media screen and (max-width: 1050px) {
-      font-size:1.6rem;
+      font-size: 1.2rem;
     }
     @media screen and (max-width: 768px) {
-      font-size: 1.4rem;
+      /* font-size: 1.4rem; */
     }
-    @media screen and (max-width: 600px) {
-      font-size: 1.5rem;
+    @media screen and (max-width: 430px) {
+      font-size: 1.1rem;
     }
   }
 
@@ -107,15 +94,15 @@ export const SocialIcons = styled.div`
     margin-right: 0.8rem;
     
     @media screen and (max-width: 1050px) {
-      font-size: 1.6rem;
+      font-size: 1.2rem;
     }
     @media screen and (max-width: 768px) {
       margin-right: 1rem;
-      font-size: 1.4rem;
+      /* font-size: 1.4rem; */
     }
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 430px) {
       
-      font-size: 1.5rem;
+      font-size: 1.1rem;
     }
   }
 
