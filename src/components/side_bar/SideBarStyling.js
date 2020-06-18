@@ -37,7 +37,7 @@ export const SideBarDiv = styled.div`
       padding-right: 1.5rem;
     }
     
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 430px) {
     flex-direction: column;
     justify-content: center;
     padding-right: 0rem;
@@ -83,7 +83,7 @@ export const SocialIcons = styled.div`
   @media screen and (max-width: 768px) {
     padding: 0rem 1rem;
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 430px) {
     align-self: flex-start;
   }
   
