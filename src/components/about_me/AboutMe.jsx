@@ -1,6 +1,6 @@
 import React from 'react';
-import SectionTitle from './SectionTitle';
-import SectionContainer from './SectionContainer';
+import SectionTitle from '../section_title/SectionTitle';
+import SectionContainer from '../section_container/SectionContainer';
 
 
 const AboutMe = () => (

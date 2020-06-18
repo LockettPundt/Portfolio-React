@@ -1,22 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
-import SectionTitle from './SectionTitle';
-import SectionContainer from './SectionContainer';
+import SkillIcons from './skillsStyled';
+import SectionTitle from '../section_title/SectionTitle';
+import SectionContainer from '../section_container/SectionContainer';
 
-const SkillIcons = styled.div`
-  display: flex;
-  font-size: 3.8rem;
-  width: 90%;
-  margin:  3rem auto;
-  justify-content: space-between;
-  
-  @media screen and (max-width: 800px) {
-    font-size: 2.7rem;
-  }
-  @media screen and (max-width: 600px) {
-    font-size: 1.8rem;
-  }
-`;
+
 
 const Skills = () => (
   <SectionContainer>

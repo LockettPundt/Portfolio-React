@@ -1,12 +1,12 @@
 import React, { useContext } from 'react';
-import { ContentBox, InnerContentBox } from '../Style/ContentContainers';
-import Greeting from './Greeting';
-import Picture from './Picture';
-import AboutMe from './AboutMe';
-import Skills from './Skills';
+import { ContentBox, InnerContentBox } from '../containers/ContentContainers';
+import Greeting from './greeting/Greeting';
+import Picture from './picture/Picture';
+import AboutMe from './about_me/AboutMe';
+import Skills from './skills/Skills';
 import Projects from './Projects';
-import Playlists from './PlayLists';
-import BottomIcons from './BottomIcons';
+import Playlists from './play_lists/PlayLists';
+import BottomIcons from './bottom_icons/BottomIcons';
 import StateContext from '../context';
 
 const Content = () => {

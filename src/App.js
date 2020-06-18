@@ -2,8 +2,8 @@
 import React, { useReducer } from 'react';
 import { StateProvider } from './context';
 import Content from './components/Content';
-import SideBar from './components/SideBar';
-import AppBox from './Style/MainContainers';
+import SideBar from './components/side_bar/SideBar';
+import AppBox from './containers/MainContainers';
 import Reducer from './reducers/Reducer';
 
 const status = localStorage.getItem('darkMode') || false;

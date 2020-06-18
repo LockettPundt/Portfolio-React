@@ -1,11 +1,6 @@
-/* eslint-disable react/no-unescaped-entities */
-/* eslint-disable jsx-a11y/anchor-has-content */
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react';
 import styled from 'styled-components';
-import potrait from '../IMG/IMG_3635small.jpeg';
 
-const MainAbout = styled.div`
+const PictureSection = styled.section`
   display: flex;
   width: 100%;
   font-size: inherit;
@@ -25,7 +20,7 @@ const MainAbout = styled.div`
   .textBox .name {
     font-weight: 400;
     margin: 1rem 0rem;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
       font-size: 1.3rem;
     }
   }
@@ -35,7 +30,7 @@ const MainAbout = styled.div`
     font-weight: 300;
     margin: 0;
     
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
       font-size: 1.2rem;
     }
     
@@ -59,19 +54,4 @@ const MainAbout = styled.div`
   }
 `;
 
-const Picture = () => (
-  <MainAbout>
-    <a name="anchor1" id="anchor1" className="anchor1" />
-    <div className="textBox">
-      <p className="name">I'm Lockett Pundt.</p>
-      <p>I'm a Web Developer</p>
-      <p>located in Atlanta.</p>
-    </div>
-    <div className="imgWrapper">
-      <img src={potrait} alt="profile potrait" />
-    </div>
-  </MainAbout>
-);
-
-
-export default Picture;
+export default PictureSection;

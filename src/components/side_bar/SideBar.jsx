@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 import React, { useContext } from 'react';
-import StateContext from '../context';
-import { NameBox, SideBarDiv, SocialIcons } from '../Style/SideBarStyling';
+import StateContext from '../../context';
+import { NameBox, SideBarDiv, SocialIcons } from './SideBarStyling';
 
 const SideBar = () => {
   const [value, dispatch] = useContext(StateContext);
