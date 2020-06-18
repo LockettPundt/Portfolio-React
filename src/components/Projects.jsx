@@ -36,7 +36,7 @@ const Projects = () => (
       )}
     />
     <SingleProject
-      src="https://i.postimg.cc/XYW2j3y9/Screen-Shot-2020-06-15-at-2-54-51-PM.png"
+      src="https://i.postimg.cc/rF6zWHdT/Screen-Shot-2020-06-18-at-3-23-17-PM.png"
       alt="WhasssApp room image"
       title="WhasssApp"
       url="https://github.com/LockettPundt/WhasssApp"
