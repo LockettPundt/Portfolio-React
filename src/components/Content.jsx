@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { ContentBox, InnerContentBox } from '../style/ContentContainers';
+import { ContentBox, InnerContentBox } from '../containers/ContentContainers';
 import Greeting from './greeting/Greeting';
 import Picture from './picture/Picture';
 import AboutMe from './about_me/AboutMe';
