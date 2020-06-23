@@ -71,6 +71,25 @@ const Projects = () => (
         </>
       )}
     />
+    <SingleProject 
+      src="https://i.postimg.cc/W4jkn36Q/Screen-Shot-2020-06-23-at-12-26-14-PM.png"
+      alt="brutality screenshot"
+      title="Brutality Assistant"
+      url="https://brutalityassistant.com"
+      github="https://github.com/LockettPundt/BrutalityAssistant"
+      text={(
+        <>
+        <p>
+          Brutality Assistant is a job application tracker App I created to aid me in the, at times, brutal 
+          job searching process. Users create an account where you can post, update and delete jobs you've
+          applied for. An archive of deleted jobs coming soon.
+        </p>
+        <p>
+          This app was created using React, MongoDB, Node, Express, JSON Web Tokens and Grommet.
+        </p>
+        </>
+      )}
+    />
     <SingleProject
       src={twentyFourgo}
       alt="24go landing page image"
