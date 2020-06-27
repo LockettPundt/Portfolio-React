@@ -39,13 +39,24 @@ const Projects = () => (
       src="https://i.postimg.cc/rF6zWHdT/Screen-Shot-2020-06-18-at-3-23-17-PM.png"
       alt="WhasssApp room image"
       title="WhasssApp"
-      url="https://github.com/LockettPundt/WhasssApp"
+      url="https://www.dropbox.com/s/kpo5yib6171equ1/WhasssApp-0.1.0.dmg?dl=0"
       github="https://github.com/LockettPundt/WhasssApp"
       text={(
         <>
         <p>Simple chat app built with React, Electron, Grommet and Socket.io. Users can 
           create or join chat rooms. Once a room is created, the chat history is saved and users
           can revisit the conversation at any time to pick up where they left off.
+        </p>
+        <p>
+          To download the App, visit 
+          <a 
+          href="https://www.dropbox.com/s/kpo5yib6171equ1/WhasssApp-0.1.0.dmg?dl=0"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+            {' '}
+            <em>here</em>
+          </a>
         </p>
         </>
       )}
