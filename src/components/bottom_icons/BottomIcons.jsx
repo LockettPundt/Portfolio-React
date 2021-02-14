@@ -12,7 +12,7 @@ const Bottomicons = () => {
   const scrollClick = (e) => {
     const anchor = document.getElementById('anchor1');
     e.preventDefault();
-    anchor.scrollIntoView(true);
+    anchor.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (

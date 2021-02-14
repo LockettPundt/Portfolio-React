@@ -7,7 +7,7 @@ const Greeting = () => {
   const [value] = useContext(StateContext);
   const scrollClick = () => {
     const anchor = document.getElementById('anchor1');
-    anchor.scrollIntoView(true);
+    anchor.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
