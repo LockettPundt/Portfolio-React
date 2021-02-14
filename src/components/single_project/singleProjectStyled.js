@@ -5,14 +5,14 @@ export const ProjectSection = styled.section`
   font-size: inherit;
   
   .title {
-    font-size: 2.3rem;
+    font-size: 2rem;
     @media screen and (max-width: 768px) {
       font-size: 1.6rem;
     }
   }
   
   i {
-    font-size: 2.3rem;
+    font-size: 2rem;
     @media screen and (max-width: 768px) {
       font-size: 1.6rem;
     }

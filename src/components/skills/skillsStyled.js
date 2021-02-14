@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
 const SkillIcons = styled.div`
-  display: flex;
-  font-size: 3.8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  gap: 10px;
+  font-size: 3rem;
   width: 90%;
   margin:  3rem auto;
   justify-content: space-between;

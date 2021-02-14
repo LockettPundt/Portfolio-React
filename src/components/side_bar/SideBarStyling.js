@@ -11,11 +11,9 @@ export const SideBarDiv = styled.div`
   color: ${(props) => (props.darkMode ? '#ffc89f' : 'rgb(38, 38, 39)')};
   height: 100%;
   margin: auto 0rem;
-  overflow: hidden;
   transition: 0.4s ease-in-out;
   
   @media screen and (max-width: 1050px) {
-      position: fixed;
       flex-direction: row;
       justify-content: space-between;
       width: 100%;
